@@ -1,6 +1,8 @@
 //1.EJERCICIOS VARIABLES KAREN SALAZAR//
+
+/*
 alert("¡JavaScript funcionando correctamente!")
-// Es una alerta de JavaScript//
+*/
 
 let variableSinValor;
 console.log(variableSinValor);
@@ -8,16 +10,14 @@ console.log(variableSinValor);
 let boleano1 = true;
 let boleano2 = false;
 
-console.log("El valor de boleano1 es: " + booleano1);
-console.log("El valor de boleano2 es: " + booleano2);
+console.log("El valor de boleano1 es: " + boleano1);
+console.log("El valor de boleano2 es: " + boleano2);
 
 
 const PI = 3.14;
 const TAU = 2* PI;
 console.log("valor de PI es:" + PI)
 console.log("valor de TAU:", TAU);
-
-
 
 const miNombre= "Karen";
 const miNumeroFav = 3;
@@ -28,7 +28,7 @@ console.log("longitud de miNombre: ", miNombre.length);
 
 console.log("tipo de dato de miNumeroFav:", typeof miNumeroFav);
 
-console.log("Mi nombre es " + miNombre +" y mi numero favorito es " + miNumeroFav)
+console.log("Mi nombre es " +miNombre +" y mi numero favorito es " + miNumeroFav)
 
 console.log("Seré un crack en JavaScript al terminar el bootcamp".toUpperCase())
 
@@ -166,12 +166,12 @@ console.log(RGB);
 let O_Error = {
     codigo: 921
 };
-console.log(O_ErrorError.codigo);
+console.log(O_Error.codigo);
 
 let Grupo = {
     integrantes:['laura','manuela', 'lorena']
 };
-let integranres = Grupo.integrantes;
+let integrantes = Grupo.integrantes;
 console.log(integrantes[1]);
 
 let Impresora = {
@@ -196,14 +196,14 @@ console.log(especificaciones);
 portatil.marca = 'MSI';
 console.log(portatil.marca);
 
-Concierto.grupos.push('Guns N\' Roses');
-console.log(Concierto.grupos);
+concierto.grupos.push('Guns N\' Roses');
+console.log(concierto.grupos);
 
-Concierto.fecha = '2024-10-05'; 
-console.log(Concierto.fecha);
+concierto.fecha = '2024-10-05'; 
+console.log(concierto.fecha);
 
-Concierto.fecha = new Date(); 
-console.log(Concierto.fecha);
+concierto.fecha = new Date(); 
+console.log(concierto.fecha);
 
 Grupo.integrantes.pop(); 
 console.log(Grupo.integrantes.length); 
